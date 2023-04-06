@@ -27,7 +27,7 @@ $ pip install git+https://github.com/openai/CLIP.git
 
 ### Download checkpoints
 * [Google Drive](https://drive.google.com/file/d/1jCDamfsknQj-A28RMA6Blws8iQn0y1ez/view?usp=share_link)
-* 파일 구조
+* Place a downloaded file as below:
 ```
 Paint-by-Sketch
     pretrained_models/
@@ -92,26 +92,30 @@ streamlit run demo/app.py --server.port=8507 --server.fileWatcherType none
   <img src="asset/2_draw_mask_sketch.png">
 </p>
 
-* 1,2번째 캔버스에서 마스크와 스케치를 그릴 수 있음 (왼쪽 패널에서 굵기조절 가능)
-* 3번째 캔버스에서는 그려진 마스크와 스케치를 오버레이해서 볼 수 있음.
+* The 1st and 2nd canvases are panels where you can draw masks and sketches.<br>
+* In the 3rd canvas, you can view the drawn mask and sketch overlaid together.<br>
+
 
 3. Upload a reference image.
 <p align="center">
   <img src="asset/3_load_exemplar.png">
 </p>
-* Select a image in the left panel.
-* Click `Read Exemplar` button.
-* Crop the image partially with bounding box.
+
+* Select a image in the left panel.<br>
+* Click `Read Exemplar` button.<br>
+* Crop the image partially with bounding box.<br>
 
 4. Inference and export
 <p align="center">
   <img src="asset/4_inference_export.png">
 </p>
-* Perform inference with the drawn mask, sketch, and the cropped image as conditions.
-* You can adjust the `scale` and `sketch strength` in the left panel
-* ou can save images in grid format through `Export` button.
+
+* Perform inference with the drawn mask, sketch, and the cropped image as conditions. <br>
+* You can adjust the `scale` and `sketch strength` in the left panel.<br>
+* ou can save images in grid format through `Export` button.<br>
 
 ## Issues
+
 * If the screen size is not large enough and the canvas size changes, there will be misalignment in the drawn mask and sketch.
 
 ## Acknowledges
