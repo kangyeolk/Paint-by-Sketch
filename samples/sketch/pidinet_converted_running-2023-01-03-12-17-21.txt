@@ -1,0 +1,22 @@
+
+conv weights: lr 0.005000, wd 0.000100	bn weights: lr 0.005000, wd 0.000010	relu weights: lr 0.005000, wd 0.000000
+=> loading checkpoint from 'trained_models/table5_pidinet.pth'
+=> loaded checkpoint 'trained_models/table5_pidinet.pth' successfully
+
+Namespace(ablation=False, checkinfo=False, config='carv4', datadir='/home/nas2_userF/kangyeol/Project/webtoon2022/Paint-by-Sketch/samples/images', dataset=['Custom'], dil=True, epochs=20, eta=0.5, evaluate='trained_models/table5_pidinet.pth', evaluate_converted=True, gpu='7', iter_size=24, lmbda=1.1, lr=0.005, lr_steps=None, lr_type='multistep', model='pidinet_converted', only_bsds=False, opt='adam', print_freq=10, resume=False, sa=True, save_freq=1, savedir='/home/nas2_userF/kangyeol/Project/webtoon2022/Paint-by-Sketch/samples/sketch', seed=1672748241, start_epoch=20, use_cuda=True, wd=0.0001, workers=4)
+
+Begin to eval...
+Img generated in /home/nas2_userF/kangyeol/Project/webtoon2022/Paint-by-Sketch/samples/sketch/eval_results/imgs_epoch_019
+
+Running test [1/10]
+Running test [2/10]
+Running test [3/10]
+Running test [4/10]
+Running test [5/10]
+Running test [6/10]
+Running test [7/10]
+Running test [8/10]
+Running test [9/10]
+Running test [10/10]
+
+Done
