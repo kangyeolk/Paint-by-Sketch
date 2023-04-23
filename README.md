@@ -134,5 +134,9 @@ streamlit run demo/app.py --server.port=8507 --server.fileWatcherType none
     primaryClass={cs.CV}
 }
 ```
+
+## License
+The code in this repository is released under the MIT License.
+
 ## Acknowledges
 This code borrows heavily from [Stable Diffusion](https://github.com/CompVis/stable-diffusion) and [Paint-by-Example](https://github.com/Fantasy-Studio/Paint-by-Example).
