@@ -1,4 +1,9 @@
-# Paint-by-Skech
+# Paint-by-Sketch
+
+### [Paper](https://arxiv.org/abs/2304.09748)
+<!-- <br> -->
+[Kangyeol Kim](https://kangyeolk.github.io/), [Sunghyun Park](https://psh01087.github.io/), [Junsoo Lee](https://ssuhan.github.io/) and [Jaegul Choo](https://sites.google.com/site/jaegulchoo/?pli=1).
+<!-- <br> -->
 
 ### Teaser
 ![Teaser](asset/teaser.png)
