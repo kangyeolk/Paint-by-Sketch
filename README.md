@@ -123,5 +123,16 @@ streamlit run demo/app.py --server.port=8507 --server.fileWatcherType none
 
 * If the screen size is not large enough and the canvas size changes, there will be misalignment in the drawn mask and sketch.
 
+## Citation
+```
+@misc{kim2023referencebased,
+    title={Reference-based Image Composition with Sketch via Structure-aware Diffusion Model},
+    author={Kangyeol Kim and Sunghyun Park and Junsoo Lee and Jaegul Choo},
+    year={2023},
+    eprint={2304.09748},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
 ## Acknowledges
 This code borrows heavily from [Stable Diffusion](https://github.com/CompVis/stable-diffusion) and [Paint-by-Example](https://github.com/Fantasy-Studio/Paint-by-Example).
